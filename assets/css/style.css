@@ -1,0 +1,18 @@
+/* #region COMMON RULES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endregion COMMON RULES */
+
+/* #region COLOR PALETTE */
+:root {
+    --z-primary: #000000;
+    --z-footer: #222222;
+    --z-colorfont: #ffffff;
+    --z-share: #4bc800;
+    --z-endcall: #f10f23;
+}
+
+/* #endregion COLOR PALETTE */
