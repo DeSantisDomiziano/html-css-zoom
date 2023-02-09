@@ -18,7 +18,7 @@ body {
     --z-colorfont: #ffffff;
     --z-share: #4bc800;
     --z-endcall: #f10f23;
-    --z-bgspan: #4a4a4a;
+    --z-bgspan: #8080808f;
 }
 
 /* #endregion COLOR PALETTE */
@@ -28,12 +28,44 @@ body {
     display: flex;
 }
 
+.container {
+    width: 80%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.col {
+    width: calc(100% / 7 - 0.25rem);
+}
+
+.row {
+    flex-wrap: wrap;
+}
+.user-video {
+    position: relative;
+    margin: 0.4rem 0.3rem;
+}
+
+.info-user {
+    font-size: 0.85rem;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: var(--z-bgspan);
+    padding: 0.3rem;
+}
+
 /* #endregion UTILITIES */
 
 
 /* #region HEADER */
 nav {
-    justify-content: flex-end
+    justify-content: flex-end;
+    margin-bottom: 3rem;
 }
 
 nav > * {
@@ -45,4 +77,3 @@ nav > * {
     border-radius: 0.7rem;
 }
 /* #endregion HEADER */
-
