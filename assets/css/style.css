@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--z-primary);
+    color: var(--z-colorfont);
+}
 /* #endregion COMMON RULES */
 
 /* #region COLOR PALETTE */
@@ -13,6 +18,31 @@
     --z-colorfont: #ffffff;
     --z-share: #4bc800;
     --z-endcall: #f10f23;
+    --z-bgspan: #4a4a4a;
 }
 
 /* #endregion COLOR PALETTE */
+
+/* #region UTILITIES */
+.d-flex {
+    display: flex;
+}
+
+/* #endregion UTILITIES */
+
+
+/* #region HEADER */
+nav {
+    justify-content: flex-end
+}
+
+nav > * {
+    background-color: var(--z-bgspan);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+/* #endregion HEADER */
+
