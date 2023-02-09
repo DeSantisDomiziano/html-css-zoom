@@ -59,6 +59,15 @@ img {
     padding: 0.3rem;
 }
 
+.overflow {
+    overflow: scroll;
+    height: 70vh;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
 /* #endregion UTILITIES */
 
 
