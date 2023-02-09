@@ -66,6 +66,10 @@ img {
 nav {
     justify-content: flex-end;
     margin-bottom: 3rem;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    right: 0;
 }
 
 nav > * {
@@ -77,3 +81,42 @@ nav > * {
     border-radius: 0.7rem;
 }
 /* #endregion HEADER */
+
+
+/* #region FOOTER */
+#app-footer {
+   z-index: 1;
+   background-color: var(--z-footer);
+   position: absolute;
+   bottom: 0;
+   left: 0;   font-size: 0.8rem;
+   justify-content: space-between;
+    width: 100%;
+}
+
+.icon > i {
+    font-size: 1.5rem;
+    padding: 0.4rem;
+}
+
+.icon {
+    text-align: center;
+    padding: 0.7rem;
+}
+
+.arrow-up {
+    align-items: center;
+}
+
+#share-screen {
+    color: var(--z-share);
+}
+
+.menu-right {
+    color: red;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--z-bgspan);
+    padding: 1rem;
+}
+/* #endregion FOOTER */
